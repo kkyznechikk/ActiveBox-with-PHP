@@ -2,7 +2,7 @@
 landing page ActiveBox 
 
 #Used technologies
-Html
+*Html
 CSS
 JavaScript
 PHP
