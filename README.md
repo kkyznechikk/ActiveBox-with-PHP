@@ -1,11 +1,11 @@
 # ActiveBox
 landing page ActiveBox 
 
-##Used technologies  
+## Used technologies  
 Html  
 CSS  
 JavaScript  
 PHP
 
-##Installation  
+## Installation  
 https://kkyznechikk.github.io/ActiveBox-with-PHP/
