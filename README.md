@@ -1,10 +1,10 @@
 # ActiveBox
 landing page ActiveBox 
 
-**Used technologies**  
+##Used technologies  
 Html  
 CSS  
 JavaScript  
 PHP
 
-**Installation**
+##Installation
