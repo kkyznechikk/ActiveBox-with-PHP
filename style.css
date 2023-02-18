@@ -85,7 +85,7 @@ p {
 
 .intro {
     height: 750px;
-    background:  #2e324d url(img/intro-bg.png) no-repeat center /cover;
+    background:  #143226 url(img/intro-bg.png) no-repeat center /cover;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -101,7 +101,7 @@ p {
 .intro__title {
     margin: 0 0 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 65px;
+    font-size: 76px;
     color: white;
     font-weight: 700;
     text-transform: uppercase;
@@ -109,8 +109,8 @@ p {
     line-height: 1.1;
 }
 .intro__subtitle {
-    font-size: 22px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.3;
     color: white;
     font-weight: 400;
     margin-bottom: 60px;
@@ -182,12 +182,12 @@ p {
 
 /*WORKS*/
 
-.works {
+.pets {
     display: flex;
     flex-wrap: wrap;
 }
 
-.works__item {
+.pets__item {
     width: 25%;
     height: 350px;
     position: relative;
@@ -196,7 +196,7 @@ p {
     border-right: 1px solid #fff;
 }
 
-.works_img {
+.pets_img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -205,11 +205,11 @@ p {
     min-width: 100%;
 }
 
-.works__item:hover .works__content {
+.pets__item:hover .pets__content {
     opacity: 1;
 }
 
-.works__content {
+.pets__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,7 +225,7 @@ p {
     transition: opacity .2s linear;
 }
 
-.works__title {
+.pets__title {
     margin-bottom: 5px;
     font-size: 14px;
     font-weight: 700;
@@ -233,7 +233,7 @@ p {
     text-transform: uppercase;
 }
 
-.works__text {
+.pets__text {
     font-size: 14px;
     font-weight: 400;
     color: white;
