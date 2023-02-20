@@ -1,5 +1,5 @@
-# ActiveBox
-landing page ActiveBox 
+# Animal shelter
+landing page Animal shelter
 
 ## Used technologies  
 Html  
