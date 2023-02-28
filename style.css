@@ -142,6 +142,7 @@ p {
     border: 0;
     cursor: pointer;
     transition: background .1s linear;
+    margin-top: 20px;
 }
 .btn--red {
     background-color: #e84545;
@@ -190,7 +191,7 @@ p {
 }
 
 
-/*WORKS*/
+/*Pets*/
 
 .pets {
     display: flex;
@@ -470,6 +471,63 @@ p {
     color: white;
 }
 
+/*ANIMAL*/
+.animal {
+    background-color: white;
+    overflow: hidden;
+}
+
+.animal__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animal__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.animal__img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 1;
+}
+.animal__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+
+}
+
+.animal__title {
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.animal__text {
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.2;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+.animal__location {
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 /*BURGER*/
 .burger {
     display: none;
@@ -603,7 +661,19 @@ input {
         padding-bottom: 40px;
     }
 
+ /*animal*/
+ .animal__photo {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
 
+.animal__content {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 40px;
+}
 
     
 }
@@ -692,13 +762,20 @@ input {
     .footer__block:last-child {
         margin-bottom: 0;
     }
+    /*animal*/
+
+    .animal__text {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 414px) {
     .testimonials__img {
         right: -100px;
     }
-
+    .animal__img {
+        right: -100px;
+    }
 }
 
 
